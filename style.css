@@ -185,7 +185,7 @@ header {
     font-size: 47px;
     padding: 0;
     margin: 0;
-
+    
 }
 
 .estrelas {
@@ -353,7 +353,7 @@ footer-bottom p {
     .icones {
 
         display: flex;
-        width: 20%;
+        width: 30%;
         align-items: center;
         justify-content: center;
 
@@ -363,7 +363,8 @@ footer-bottom p {
 
     .perfil {
 
-        width: 35%;
+        width: 40%;
+        padding-left:20px;
         display: flex;
         align-items: center;
         justify-content: flex-end;
@@ -410,5 +411,49 @@ footer-bottom p {
 
    
 }
+
+.imgprinc {
+
+    width: 300px;
+
+}
+
+.infos {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.infos h2 {
+
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.botao {
+
+    width: 450px;
+    height: 50px;
+
+
+}
+
+.descricao {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 200px;
+    margin-left: 30px;
+
+}
+
+
 
 }
